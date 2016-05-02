@@ -13,14 +13,12 @@
 // limitations under the License.
 
 Elm.Native.Math = Elm.Native.Math || {};
-Elm.Native.Math.Float = Elm.Native.Math.Float || {};
-Elm.Native.Math.Float.make = function(localRuntime) {
+Elm.Native.Math.make = function(localRuntime) {
     localRuntime.Native = localRuntime.Native || {};
     localRuntime.Native.Math = localRuntime.Native.Math || {};
-    localRuntime.Native.Math.Float = localRuntime.Native.Math.Float || {};
-    if (localRuntime.Native.Math.Float.values)
+    if (localRuntime.Native.Math.values)
     {
-        return localRuntime.Native.Math.Float.values;
+        return localRuntime.Native.Math.values;
     }
 
     function fmod(a, b)
@@ -28,8 +26,7 @@ Elm.Native.Math.Float.make = function(localRuntime) {
         return a % b;
     }
 
-    return localRuntime.Native.Math.Float.values = {
+    return localRuntime.Native.Math.values = {
         fmod : F2(fmod),
     };
-
 };

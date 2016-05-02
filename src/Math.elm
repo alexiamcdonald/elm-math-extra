@@ -12,16 +12,16 @@
 -- See the License for the specific language governing permissions and
 -- limitations under the License.
 
-module Math.Float
+module Math
     ( fmod
     ) where
 
-{-| Float extension functions
+{-| Some handy extra math functions
 
 @docs fmod
 
 -}
-import Native.Math.Float
+import Native.Math
 
 {-| Floating point modulus
 
@@ -29,4 +29,4 @@ import Native.Math.Float
 -}
 fmod : Float -> Float -> Float
 fmod =
-    Native.Math.Float.fmod
+    Native.Math.fmod

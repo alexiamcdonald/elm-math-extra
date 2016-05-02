@@ -7,7 +7,7 @@
         "src"
     ],
     "exposed-modules": [
-        "Math.Float"
+        "Math"
     ],
     "native-modules": true,
     "dependencies": {

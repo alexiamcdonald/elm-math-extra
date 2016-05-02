@@ -1,8 +1,8 @@
 {
-    "version": "0.0.0",
-    "summary": "Extra math functions for elm",
+    "version": "1.0.0",
+    "summary": "Extra math functions for Elm",
     "repository": "http://github.com/alexiamcdonald/elm-math-extra.git",
-    "license": "BSD3",
+    "license": "ASL2",
     "source-directories": [
         "src"
     ],
